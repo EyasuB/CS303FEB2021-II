@@ -62,7 +62,6 @@ let linkedlist = {
             console.log(temp.value);
             temp = temp.next;
         }
-        return linkedlist;
     }
      }
 
@@ -70,10 +69,10 @@ linkedlist.add(1);
 linkedlist.add(2);
 linkedlist.add(3);
 linkedlist.add(4);
-// linkedlist.add(5);
+linkedlist.add(5);
+linkedlist.remove(4);
 // linkedlist.add(6);
 // linkedlist.add(7)
 //linkedlist.remove(4);
-//linkedlist.print();
-//linkedlist.remove(4);
-console.log(linkedlist);
+linkedlist.print();
+
