@@ -4,9 +4,9 @@ from and ending with to.
 */
 
 let i = 0;
-let interval = setInterval(() => {
+let printNumbers = setInterval(() => {
     if (i === 10) {
-        clearInterval(interval)
+        clearInterval(printNumbers)
     }
     console.log(i);
     i++;
